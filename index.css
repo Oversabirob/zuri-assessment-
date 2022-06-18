@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  width: 50%;
+}
+header div{
+  margin:20px 20px;
+}
+header div a{
+  color: black;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 0.5em;
+  text-decoration: none;
+}
+body {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+/* main {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+main .contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+
+
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px;
+  width: 180px;
+  height: 55vh;
+  padding: 2.5em;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  border-radius: 5px;
+  width: 180px;
+  height: 55vh;
+  padding: 2.5em;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 5px;
+  width: 180px;
+  height: 55vh;
+  padding: 2.5em;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+main div h2 {
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 30px;
+  font-weight: 700;
+  text-align: left;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+main div svg {
+  padding-bottom: 30px;
+  position: relative;
+  align-content: left;
+}
+button {
+  color: hsl(0, 0%, 95%);
+  border: 1.5px solid hsl(0, 0%, 95%);
+  border-radius: 30em;
+  background-color: hsl(0, 0%, 95%);
+  margin-top: 55px;
+  margin-bottom: 30px;
+  padding: 12px 25px;
+  cursor: pointer;
+  align-items: left;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+.sedans button {
+  color: hsl(31, 77%, 52%);
+}
+.suvs button {
+  color: hsl(184, 100%, 22%);
+}
+.luxury button {
+  color: hsl(179, 100%, 13%);
+  margin-top: 56px;
+}
+button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}
+header div a:hover {
+  background-color: black;
+  color: hsl(0, 0%, 95%);
+}
+@media (max-width: 375px) {
+  main .contain {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header div a {
+    margin-bottom: 50px;
+  }
+}
