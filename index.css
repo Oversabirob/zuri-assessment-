@@ -123,4 +123,6 @@ header div a:hover {
   header div a {
     margin-bottom: 50px;
   }
+  button{
+  margin-bottom: 15px;}
 }
