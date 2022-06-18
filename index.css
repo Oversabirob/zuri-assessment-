@@ -117,6 +117,7 @@ header div a:hover {
   main .contain {
     display: flex;
     flex-direction: row;
+    height:80vh;
   }
 
   header div a {
